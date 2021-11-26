@@ -1,0 +1,71 @@
+.profile-card{
+    width: 250px;
+    height: 200px;
+    background-color: #d6c357ef;
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+    border-radius: 10%;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.container-text{
+    padding-left: 20px;
+}
+
+#profile{
+    width: 80px;
+    border-radius: 100%;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+
+#number{
+    font-size: medium;
+    color: #000000;
+    font-style: italic;
+}
+
+#name{
+    font-size: large;
+    color: #000000;
+}
+
+.btn{
+    position: relative;
+    left: 15px;
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+    margin:0 5px;
+    overflow: hidden;
+    background: rgb(255, 0, 0);
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    color:rgb(179, 255, 0);
+}
+
+.btn .btn-icon{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+    box-sizing: border-box;
+    line-height: 42px;
+}
+
+.btn span{
+    position: absolute;
+    top: -5px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 42px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    box-shadow: 3px 5px 10px #ff0000; 
+}

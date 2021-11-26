@@ -1,0 +1,27 @@
+.container{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+}
+
+h1{
+    margin: auto;
+    color: rgb(15, 0, 0);
+    font-family: 'Anton', sans-serif;
+}
+
+.container-profile{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 992px) {
+    .container-profile{
+        width: 70%;
+    }
+}
